@@ -1,5 +1,5 @@
 /* ============================================================
-   Gemmed — maquette front
+   Gemmed, maquette front
    Aucune donnée n'est envoyée : le calendrier et les
    disponibilités sont simulés côté navigateur.
    ============================================================ */
@@ -23,7 +23,7 @@
 
       'studio.eyebrow': 'The studio',
       'studio.title.a': 'A tiny detail,', 'studio.title.b': 'a huge effect.',
-      'studio.p1': 'Gemmed is a Montreal studio devoted to tooth jewellery. Every crystal is picked with you, then bonded to the enamel with professional dental adhesive — the same one used for orthodontic brackets.',
+      'studio.p1': 'Gemmed is a Montreal studio devoted to tooth jewellery. Every crystal is picked with you, then bonded to the enamel with professional dental adhesive, the same one used for orthodontic brackets.',
       'studio.p2': 'No drill, no filing, no alteration of the tooth. Placement takes about fifteen minutes, doesn’t hurt, and comes off as easily as it goes on.',
       'studio.f1': 'average session', 'studio.f2': 'typical wear', 'studio.f3': 'enamel altered',
 
@@ -32,7 +32,7 @@
       'process.s1.t': 'We choose',
       'process.s1.p': 'Shape, size, colour, placement. We try, step back, check it in the light. Nothing is bonded until you are sure.',
       'process.s2.t': 'We prep',
-      'process.s2.p': 'The tooth is cleaned, isolated and dried. It’s the only technical step — and the one that decides how long it lasts.',
+      'process.s2.p': 'The tooth is cleaned, isolated and dried. It’s the only technical step, and the one that decides how long it lasts.',
       'process.s3.t': 'We place',
       'process.s3.p': 'A drop of dental adhesive, the crystal, then the curing light. A few seconds and it’s set.',
       'process.s4.t': 'You shine',
@@ -55,11 +55,11 @@
 
       'booking.eyebrow': 'Booking',
       'booking.title.a': 'Pick your', 'booking.title.b': 'moment.',
-      'bk.s1': '1 — Your service', 'bk.s1b': '2 — Your date', 'bk.s1c': '3 — Your time',
+      'bk.s1': '1. Your service', 'bk.s1b': '2. Your date', 'bk.s1c': '3. Your time',
       'bk.closed': 'Studio closed on Sundays and Mondays.',
       'bk.pickdate': 'Pick a date first.',
       'bk.next': 'Continue', 'bk.back': 'Back', 'bk.confirm': 'Confirm appointment',
-      'bk.s2': '4 — Your details',
+      'bk.s2': '4. Your details',
       'bk.name': 'Full name', 'bk.phone': 'Phone', 'bk.email': 'Email',
       'bk.notes': 'Anything specific in mind? (optional)',
       'bk.legal': 'No online payment. Your appointment is confirmed by message.',
@@ -77,7 +77,7 @@
       'faq.title.a': 'The questions', 'faq.title.b': 'we get asked.',
       'faq.sub': 'Another question? Message us on Instagram, we reply fast.',
       'faq.q1': 'Does it damage the tooth?',
-      'faq.a1': 'No. The crystal is bonded onto the enamel with dental adhesive — no drilling, no sanding. Once removed, a simple polish returns the tooth to its original state.',
+      'faq.a1': 'No. The crystal is bonded onto the enamel with dental adhesive, no drilling and no sanding. Once removed, a simple polish returns the tooth to its original state.',
       'faq.q2': 'Does it hurt?',
       'faq.a2': 'Not at all. Nothing penetrates the tooth, there is no heat and no pressure. The only sensation is the cheek retractor for a few minutes.',
       'faq.q3': 'How long does it last?',
@@ -93,9 +93,9 @@
 
       'foot.tag': 'Tooth gem studio · Montreal · Est. 2026',
       'foot.visit': 'The studio', 'foot.byappt': 'By appointment only',
-      'foot.hours': 'Hours', 'foot.h1': 'Tuesday – Friday', 'foot.h2': 'Saturday',
+      'foot.hours': 'Hours', 'foot.h1': 'Tuesday to Friday', 'foot.h2': 'Saturday',
       'foot.contact': 'Contact',
-      'foot.mock': 'Presentation mock-up — content and availability are fictional.'
+      'foot.mock': 'Presentation mock-up. Content and availability are fictional.'
     }
   };
 
@@ -130,8 +130,8 @@
     });
 
     document.title = next === 'fr'
-      ? 'Gemmed — Tooth Gem Studio · Montréal'
-      : 'Gemmed — Tooth Gem Studio · Montreal';
+      ? 'Gemmed · Tooth Gem Studio · Montréal'
+      : 'Gemmed · Tooth Gem Studio · Montreal';
 
     renderCalendar();
     renderSlots();

@@ -1,4 +1,4 @@
-# Gemmed — maquette de site
+# Gemmed, maquette de site
 
 Maquette de présentation pour **Gemmed**, tooth gem studio à Montréal.
 Site statique (HTML / CSS / JS, sans dépendance ni build).
@@ -9,7 +9,7 @@ Site statique (HTML / CSS / JS, sans dépendance ni build).
 - Section studio, déroulé de la prestation en 4 étapes
 - Galerie 12 visuels avec agrandissement au clic
 - Tarifs : 1 à 4 gems (40 $ / 60 $ / 80 $ / 100 $ CAD)
-- **Calendrier de réservation** en 3 étapes : prestation → date → créneau → coordonnées → confirmation
+- **Calendrier de réservation** en 3 étapes : prestation, date, créneau, coordonnées, confirmation
 - FAQ, témoignages, pied de page
 - Bilingue **FR / EN** (bascule en haut à droite)
 
@@ -37,5 +37,4 @@ assets/
   img/            logo, favicons, visuels
 ```
 
----
 Réalisé par [Caza Comm](https://cazacomm.fr).
