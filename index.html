@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gemmed — Tooth Gem Studio · Montréal</title>
+<meta name="description" content="Gemmed — studio de bijoux dentaires à Montréal. Pose de tooth gems Swarovski, sans douleur, sans perçage. Réservez votre rendez-vous en ligne.">
+<meta name="theme-color" content="#f7f3ea">
+<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/img/favicon-180.png">
+<meta property="og:title" content="Gemmed — Tooth Gem Studio · Montréal">
+<meta property="og:description" content="Bijoux dentaires posés avec soin. Sans douleur, sans perçage, 100 % réversible.">
+<meta property="og:image" content="assets/img/hero-wide.jpg">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<div class="loader" id="loader" aria-hidden="true">
+  <img src="assets/img/logo-wordmark.png" alt="">
+</div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Gemmed — accueil">
+    <img src="assets/img/logo-wordmark.png" alt="Gemmed">
+  </a>
+
+  <nav class="nav__links" aria-label="Navigation principale">
+    <a href="#studio" data-i18n="nav.studio">Le studio</a>
+    <a href="#gallery" data-i18n="nav.gallery">Galerie</a>
+    <a href="#pricing" data-i18n="nav.pricing">Tarifs</a>
+    <a href="#faq" data-i18n="nav.faq">FAQ</a>
+  </nav>
+
+  <div class="nav__right">
+    <div class="lang" role="group" aria-label="Langue">
+      <button type="button" class="lang__btn is-active" data-lang="fr">FR</button>
+      <span class="lang__sep">/</span>
+      <button type="button" class="lang__btn" data-lang="en">EN</button>
+    </div>
+    <a href="#booking" class="btn btn--sm" data-i18n="nav.book">Réserver</a>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <a href="#studio" data-i18n="nav.studio">Le studio</a>
+  <a href="#gallery" data-i18n="nav.gallery">Galerie</a>
+  <a href="#pricing" data-i18n="nav.pricing">Tarifs</a>
+  <a href="#faq" data-i18n="nav.faq">FAQ</a>
+  <a href="#booking" class="drawer__cta" data-i18n="nav.book">Réserver</a>
+</div>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero__media">
+    <img src="assets/img/hero-wide.jpg" alt="Sourire orné de bijoux dentaires">
+  </div>
+
+  <div class="hero__inner">
+    <p class="eyebrow eyebrow--light" data-i18n="hero.eyebrow">Montréal · Est. 2026</p>
+    <img class="hero__wordmark" src="assets/img/logo-wordmark-cream.png" alt="Gemmed">
+    <p class="hero__tag" data-i18n="hero.tag">Tooth gem studio</p>
+    <p class="hero__lede" data-i18n="hero.lede">Des cristaux posés à la main sur votre sourire. Sans douleur, sans perçage, entièrement réversible.</p>
+    <div class="hero__cta">
+      <a href="#booking" class="btn btn--light" data-i18n="hero.book">Réserver un rendez-vous</a>
+      <a href="#pricing" class="btn btn--ghost-light" data-i18n="hero.prices">Voir les tarifs</a>
+    </div>
+  </div>
+
+  <div class="hero__scroll" aria-hidden="true"><span data-i18n="hero.scroll">Défiler</span></div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>Tooth gems</span><i class="star"></i>
+    <span data-i18n="mq.1">Sans douleur</span><i class="star"></i>
+    <span>Swarovski</span><i class="star"></i>
+    <span data-i18n="mq.2">100 % réversible</span><i class="star"></i>
+    <span>Montréal</span><i class="star"></i>
+    <span data-i18n="mq.3">Sur rendez-vous</span><i class="star"></i>
+    <span>Tooth gems</span><i class="star"></i>
+    <span data-i18n="mq.1">Sans douleur</span><i class="star"></i>
+    <span>Swarovski</span><i class="star"></i>
+    <span data-i18n="mq.2">100 % réversible</span><i class="star"></i>
+    <span>Montréal</span><i class="star"></i>
+    <span data-i18n="mq.3">Sur rendez-vous</span><i class="star"></i>
+  </div>
+</div>
+
+<!-- ============ STUDIO ============ -->
+<section class="studio section" id="studio">
+  <div class="studio__grid">
+    <div class="studio__text reveal">
+      <p class="eyebrow" data-i18n="studio.eyebrow">Le studio</p>
+      <h2 class="h2"><span data-i18n="studio.title.a">Un détail minuscule,</span> <em data-i18n="studio.title.b">un effet immense.</em></h2>
+      <p class="lede" data-i18n="studio.p1">Gemmed est un studio montréalais dédié au bijou dentaire. Chaque cristal est choisi avec vous, puis fixé à la surface de l'émail avec une colle dentaire professionnelle — la même que celle utilisée pour les bagues d'orthodontie.</p>
+      <p data-i18n="studio.p2">Aucune perceuse, aucune lime, aucune altération de la dent. La pose prend une quinzaine de minutes, ne fait pas mal, et se retire aussi facilement qu'elle s'installe.</p>
+
+      <ul class="facts">
+        <li><strong>15<span class="u">min</span></strong><span data-i18n="studio.f1">de pose en moyenne</span></li>
+        <li><strong>6–12<span class="u">mois</span></strong><span data-i18n="studio.f2">de tenue habituelle</span></li>
+        <li><strong>0<span class="u">%</span></strong><span data-i18n="studio.f3">d'altération de l'émail</span></li>
+      </ul>
+    </div>
+
+    <div class="studio__media reveal">
+      <figure class="frame frame--tall">
+        <img src="assets/img/gallery-02.jpg" alt="Sourire avec un bijou dentaire" loading="lazy">
+      </figure>
+      <figure class="frame frame--offset">
+        <img src="assets/img/gallery-03.jpg" alt="Cristal papillon sur une dent" loading="lazy">
+      </figure>
+      <div class="sticker" aria-hidden="true">
+        <img src="assets/img/sparkle.svg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="process section">
+  <p class="eyebrow center reveal" data-i18n="process.eyebrow">Comment ça se passe</p>
+  <h2 class="h2 center reveal"><span data-i18n="process.title.a">Quatre étapes,</span> <em data-i18n="process.title.b">zéro stress.</em></h2>
+
+  <ol class="steps">
+    <li class="step reveal"><span class="step__n">01</span>
+      <h3 data-i18n="process.s1.t">On choisit</h3>
+      <p data-i18n="process.s1.p">Forme, taille, couleur, placement. On essaie, on recule, on regarde à la lumière. Rien n'est posé tant que vous n'êtes pas convaincue.</p></li>
+    <li class="step reveal"><span class="step__n">02</span>
+      <h3 data-i18n="process.s2.t">On prépare</h3>
+      <p data-i18n="process.s2.p">La dent est nettoyée, isolée et séchée. C'est la seule étape un peu technique — et la plus importante pour la tenue.</p></li>
+    <li class="step reveal"><span class="step__n">03</span>
+      <h3 data-i18n="process.s3.t">On pose</h3>
+      <p data-i18n="process.s3.p">Une goutte de colle dentaire, le cristal, puis la lampe de polymérisation. Quelques secondes et c'est figé.</p></li>
+    <li class="step reveal"><span class="step__n">04</span>
+      <h3 data-i18n="process.s4.t">On brille</h3>
+      <p data-i18n="process.s4.p">Vous repartez avec votre sourire, la fiche d'entretien, et l'envie de sourire beaucoup plus souvent.</p></li>
+  </ol>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="gallery section" id="gallery">
+  <div class="gallery__head">
+    <div class="reveal">
+      <p class="eyebrow" data-i18n="gallery.eyebrow">Galerie</p>
+      <h2 class="h2"><span data-i18n="gallery.title.a">Des sourires</span> <em data-i18n="gallery.title.b">signés Gemmed.</em></h2>
+    </div>
+    <p class="gallery__note reveal" data-i18n="gallery.note">Cliquez sur une image pour l'agrandir.</p>
+  </div>
+
+  <div class="gallery__grid">
+    <button class="tile tile--lg reveal" data-full="assets/img/gallery-01.jpg"><img src="assets/img/gallery-01.jpg" alt="Ligne de cristaux sur les dents du bas" loading="lazy"></button>
+    <button class="tile reveal" data-full="assets/img/gallery-02.jpg"><img src="assets/img/gallery-02.jpg" alt="Bijou dentaire scintillant" loading="lazy"></button>
+    <button class="tile reveal" data-full="assets/img/gallery-04.jpg"><img src="assets/img/gallery-04.jpg" alt="Sourire avec gems" loading="lazy"></button>
+    <button class="tile reveal" data-full="assets/img/gallery-05.jpg"><img src="assets/img/gallery-05.jpg" alt="Pose d’un cristal dentaire" loading="lazy"></button>
+    <button class="tile reveal" data-full="assets/img/gallery-10.jpg"><img src="assets/img/gallery-10.jpg" alt="Gros plan sur un cristal dentaire" loading="lazy"></button>
+    <button class="tile reveal" data-full="assets/img/gallery-06.jpg"><img src="assets/img/gallery-06.jpg" alt="Sourire orné d’une étoile" loading="lazy"></button>
+    <button class="tile reveal" data-full="assets/img/gallery-07.jpg"><img src="assets/img/gallery-07.jpg" alt="Cristaux colorés sur les dents" loading="lazy"></button>
+    <button class="tile reveal" data-full="assets/img/gallery-03.jpg"><img src="assets/img/gallery-03.jpg" alt="Cristal papillon violet" loading="lazy"></button>
+    <button class="tile reveal" data-full="assets/img/gallery-09.jpg"><img src="assets/img/gallery-09.jpg" alt="Sourire avec bijou dentaire" loading="lazy"></button>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="pricing section" id="pricing">
+  <p class="eyebrow center reveal" data-i18n="pricing.eyebrow">Tarifs</p>
+  <h2 class="h2 center reveal"><span data-i18n="pricing.title.a">Simple :</span> <em data-i18n="pricing.title.b">au nombre de gems.</em></h2>
+  <p class="center muted reveal" data-i18n="pricing.sub">Prix en dollars canadiens, taxes en sus. Cristaux, pose et fiche d'entretien inclus.</p>
+
+  <div class="cards">
+    <article class="card reveal">
+      <p class="card__qty">01</p>
+      <h3 data-i18n="price.1.t">1 gem</h3>
+      <p class="card__price" data-price="40">40 $</p>
+      <p class="card__desc" data-i18n="price.1.d">Le classique. Un seul cristal, posé là où la lumière l'attrape.</p>
+      <button class="btn btn--ghost card__cta" data-book="1" data-i18n="price.cta">Réserver</button>
+    </article>
+
+    <article class="card reveal">
+      <p class="card__qty">02</p>
+      <h3 data-i18n="price.2.t">2 gems</h3>
+      <p class="card__price" data-price="60">60 $</p>
+      <p class="card__desc" data-i18n="price.2.d">Symétrie parfaite, une de chaque côté. Le choix le plus demandé.</p>
+      <button class="btn btn--ghost card__cta" data-book="2" data-i18n="price.cta">Réserver</button>
+    </article>
+
+    <article class="card card--feature reveal">
+      <span class="card__flag" data-i18n="price.popular">Le plus choisi</span>
+      <p class="card__qty">03</p>
+      <h3 data-i18n="price.3.t">3 gems</h3>
+      <p class="card__price" data-price="80">80 $</p>
+      <p class="card__desc" data-i18n="price.3.d">Une petite constellation. On dessine le placement ensemble.</p>
+      <button class="btn card__cta" data-book="3" data-i18n="price.cta">Réserver</button>
+    </article>
+
+    <article class="card reveal">
+      <p class="card__qty">04</p>
+      <h3 data-i18n="price.4.t">4 gems</h3>
+      <p class="card__price" data-price="100">100 $</p>
+      <p class="card__desc" data-i18n="price.4.d">Le sourire pleinement gemmé. Effet garanti sur les photos.</p>
+      <button class="btn btn--ghost card__cta" data-book="4" data-i18n="price.cta">Réserver</button>
+    </article>
+  </div>
+
+  <p class="pricing__foot center reveal" data-i18n="pricing.foot">Plus de 4 gems, motif sur mesure ou retrait d'un bijou existant ? Écrivez-nous, on vous fait un prix.</p>
+</section>
+
+<!-- ============ BOOKING ============ -->
+<section class="booking section" id="booking">
+  <div class="booking__head">
+    <p class="eyebrow eyebrow--light center reveal" data-i18n="booking.eyebrow">Réservation</p>
+    <h2 class="h2 center reveal"><span data-i18n="booking.title.a">Choisissez votre</span> <em data-i18n="booking.title.b">moment.</em></h2>
+  </div>
+
+  <div class="booking__box reveal">
+
+    <div class="bk-progress" aria-hidden="true">
+      <span class="is-on" data-step-dot="1"></span><span data-step-dot="2"></span><span data-step-dot="3"></span>
+    </div>
+
+    <!-- step 1 -->
+    <div class="bk-step is-active" data-step="1">
+      <p class="bk-label" data-i18n="bk.s1">1 — Votre prestation</p>
+      <div class="bk-services">
+        <button class="bk-service" data-service="1"><b data-i18n="price.1.t">1 gem</b><span data-price="40">40 $</span></button>
+        <button class="bk-service" data-service="2"><b data-i18n="price.2.t">2 gems</b><span data-price="60">60 $</span></button>
+        <button class="bk-service" data-service="3"><b data-i18n="price.3.t">3 gems</b><span data-price="80">80 $</span></button>
+        <button class="bk-service" data-service="4"><b data-i18n="price.4.t">4 gems</b><span data-price="100">100 $</span></button>
+      </div>
+
+      <p class="bk-label" data-i18n="bk.s1b">2 — Votre date</p>
+      <div class="cal">
+        <div class="cal__head">
+          <button class="cal__nav" id="calPrev" aria-label="Mois précédent">&#8592;</button>
+          <p class="cal__month" id="calMonth">—</p>
+          <button class="cal__nav" id="calNext" aria-label="Mois suivant">&#8594;</button>
+        </div>
+        <div class="cal__dows" id="calDows"></div>
+        <div class="cal__grid" id="calGrid"></div>
+        <p class="cal__hint" data-i18n="bk.closed">Studio fermé le dimanche et le lundi.</p>
+      </div>
+
+      <p class="bk-label" data-i18n="bk.s1c">3 — Votre heure</p>
+      <div class="slots" id="slots"><p class="slots__empty" data-i18n="bk.pickdate">Sélectionnez d'abord une date.</p></div>
+
+      <div class="bk-actions">
+        <button class="btn" id="toStep2" disabled data-i18n="bk.next">Continuer</button>
+      </div>
+    </div>
+
+    <!-- step 2 -->
+    <div class="bk-step" data-step="2">
+      <p class="bk-label" data-i18n="bk.s2">4 — Vos coordonnées</p>
+      <div class="bk-fields">
+        <label><span data-i18n="bk.name">Nom complet</span><input type="text" id="fName" autocomplete="name" placeholder="Camille Tremblay"></label>
+        <label><span data-i18n="bk.phone">Téléphone</span><input type="tel" id="fPhone" autocomplete="tel" placeholder="(514) 000-0000"></label>
+        <label class="full"><span data-i18n="bk.email">Courriel</span><input type="email" id="fEmail" autocomplete="email" placeholder="camille@exemple.ca"></label>
+        <label class="full"><span data-i18n="bk.notes">Une envie particulière ? (optionnel)</span><textarea id="fNotes" rows="3" placeholder="Couleur, placement, inspiration…"></textarea></label>
+      </div>
+
+      <div class="bk-recap" id="recap"></div>
+
+      <div class="bk-actions">
+        <button class="btn btn--ghost" id="backStep1" data-i18n="bk.back">Retour</button>
+        <button class="btn" id="confirmBtn" data-i18n="bk.confirm">Confirmer le rendez-vous</button>
+      </div>
+      <p class="bk-legal" data-i18n="bk.legal">Aucun paiement en ligne. Le rendez-vous est confirmé par message.</p>
+    </div>
+
+    <!-- step 3 -->
+    <div class="bk-step" data-step="3">
+      <div class="bk-done">
+        <img src="assets/img/sparkle.svg" alt="" class="bk-done__star">
+        <h3 data-i18n="bk.done.t">C'est noté !</h3>
+        <p id="doneLine" class="bk-done__line"></p>
+        <p class="bk-done__ref" id="doneRef"></p>
+        <p class="bk-done__note" data-i18n="bk.done.n">Vous recevrez une confirmation par message. À très vite au studio.</p>
+        <button class="btn btn--ghost" id="restartBtn" data-i18n="bk.again">Prendre un autre rendez-vous</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="quotes section">
+  <p class="eyebrow center reveal" data-i18n="quotes.eyebrow">Elles en parlent</p>
+  <div class="quotes__grid">
+    <blockquote class="quote reveal">
+      <p data-i18n="q1.t">« Je flippais un peu et en fait on ne sent strictement rien. Trois semaines après, mon gem n'a pas bougé d'un millimètre. »</p>
+      <cite>Sarah L. <span data-i18n="q1.c">· Rosemont</span></cite>
+    </blockquote>
+    <blockquote class="quote reveal">
+      <p data-i18n="q2.t">« Le studio est magnifique, on prend le temps de choisir le placement. Je suis repartie avec deux cristaux et un sourire idiot. »</p>
+      <cite>Marie-Ève D. <span data-i18n="q2.c">· Plateau</span></cite>
+    </blockquote>
+    <blockquote class="quote reveal">
+      <p data-i18n="q3.t">« Everyone asks me where I got them done. Best 80 bucks I've spent on myself this year. »</p>
+      <cite>Jas P. <span data-i18n="q3.c">· Mile End</span></cite>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq section" id="faq">
+  <div class="faq__grid">
+    <div class="faq__intro reveal">
+      <p class="eyebrow" data-i18n="faq.eyebrow">FAQ</p>
+      <h2 class="h2"><span data-i18n="faq.title.a">Les questions</span> <em data-i18n="faq.title.b">qu'on nous pose.</em></h2>
+      <p class="muted" data-i18n="faq.sub">Une autre question ? Écrivez-nous sur Instagram, on répond vite.</p>
+    </div>
+
+    <div class="faq__list">
+      <details class="acc reveal"><summary data-i18n="faq.q1">Est-ce que ça abîme la dent ?</summary>
+        <p data-i18n="faq.a1">Non. Le cristal est collé sur l'émail avec un adhésif dentaire, sans perçage ni ponçage. Au retrait, la dent retrouve son état d'origine après un simple polissage.</p></details>
+      <details class="acc reveal"><summary data-i18n="faq.q2">Est-ce que ça fait mal ?</summary>
+        <p data-i18n="faq.a2">Pas du tout. Rien ne pénètre la dent, il n'y a ni chaleur ni pression. La seule sensation, c'est l'écarteur de joues pendant quelques minutes.</p></details>
+      <details class="acc reveal"><summary data-i18n="faq.q3">Combien de temps ça tient ?</summary>
+        <p data-i18n="faq.a3">Entre 6 et 12 mois en moyenne, souvent davantage. Cela dépend de votre hygiène, de votre alimentation et de l'emplacement choisi.</p></details>
+      <details class="acc reveal"><summary data-i18n="faq.q4">Et si mon gem tombe ?</summary>
+        <p data-i18n="faq.a4">S'il se décolle dans les 14 jours suivant la pose, on le remplace gratuitement. Au-delà, la repose est facturée à moitié prix.</p></details>
+      <details class="acc reveal"><summary data-i18n="faq.q5">Puis-je manger et me brosser les dents normalement ?</summary>
+        <p data-i18n="faq.a5">Oui. On évite simplement de croquer directement dans les aliments très durs avec la dent concernée, et on brosse en douceur autour du cristal.</p></details>
+      <details class="acc reveal"><summary data-i18n="faq.q6">À partir de quel âge ?</summary>
+        <p data-i18n="faq.a6">16 ans, avec autorisation parentale pour les mineurs. Les dents doivent être saines et sans carie non traitée.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BAND ============ -->
+<section class="band">
+  <div class="band__media"><img src="assets/img/gallery-10.jpg" alt="" loading="lazy"></div>
+  <div class="band__inner reveal">
+    <h2 class="h1" data-i18n="band.t">Un sourire, ça se remarque.</h2>
+    <a href="#booking" class="btn btn--light" data-i18n="band.cta">Réserver maintenant</a>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="foot">
+  <div class="foot__grid">
+    <div class="foot__brand">
+      <img src="assets/img/logo-wordmark-cream.png" alt="Gemmed">
+      <p data-i18n="foot.tag">Tooth gem studio · Montréal · Est. 2026</p>
+    </div>
+
+    <div class="foot__col">
+      <h4 data-i18n="foot.visit">Le studio</h4>
+      <p>Plateau Mont-Royal<br>Montréal, QC</p>
+      <p class="muted-l" data-i18n="foot.byappt">Sur rendez-vous uniquement</p>
+    </div>
+
+    <div class="foot__col">
+      <h4 data-i18n="foot.hours">Horaires</h4>
+      <p><span data-i18n="foot.h1">Mardi – Vendredi</span><br>11 h – 19 h</p>
+      <p><span data-i18n="foot.h2">Samedi</span><br>10 h – 17 h</p>
+    </div>
+
+    <div class="foot__col">
+      <h4 data-i18n="foot.contact">Contact</h4>
+      <p><a href="#">@gemmed.mtl</a></p>
+      <p><a href="#">bonjour@gemmed.ca</a></p>
+      <p><a href="#">(514) 000-0000</a></p>
+    </div>
+  </div>
+
+  <div class="foot__bar">
+    <p>© <span id="year">2026</span> Gemmed</p>
+    <p class="foot__mock" data-i18n="foot.mock">Maquette de présentation — contenus et disponibilités fictifs.</p>
+    <p><a href="https://cazacomm.fr" target="_blank" rel="noopener">Caza Comm</a></p>
+  </div>
+</footer>
+
+<!-- lightbox -->
+<div class="lb" id="lb" aria-hidden="true">
+  <button class="lb__close" id="lbClose" aria-label="Fermer">&times;</button>
+  <img id="lbImg" src="" alt="">
+</div>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
