@@ -17,7 +17,7 @@
       'hero.eyebrow': 'Montreal · Est. 2026',
       'hero.tag': 'Tooth gem studio',
       'hero.lede': 'Hand-set crystals on your smile. Painless, no drilling, fully reversible.',
-      'hero.book': 'Book an appointment', 'hero.prices': 'See pricing', 'hero.scroll': 'Scroll',
+      'hero.book': 'Book an appointment', 'hero.prices': 'See pricing',
 
       'mq.1': 'Painless', 'mq.2': '100% reversible', 'mq.3': 'By appointment',
 
